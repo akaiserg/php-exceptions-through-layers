@@ -1,0 +1,26 @@
+{
+    "note":"composer dump-autoload -o",
+    "require": {
+
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+
+        "psr-4":
+        {
+            "exceptions\\layer0\\": "layer0/",
+            "exceptions\\layer0\\exceptionLayer0\\": "layer0/exception/",
+            "exceptions\\layer1\\": "layer1/",
+            "exceptions\\layer1\\exceptionLayer1\\": "layer1/exception/",
+            "exceptions\\layer2\\": "layer2/",
+            "exceptions\\layer2\\exceptionLayer2\\": "layer2/exception/"
+
+        },
+        "classmap": [
+
+        ]
+    }
+}
